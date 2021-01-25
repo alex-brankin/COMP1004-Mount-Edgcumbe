@@ -1,18 +1,19 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<link rel="shortcut icon" href="img/FriendsLogo.jpg" />
 	<html lang="en" dir="ltr">
 	<font color="#3498db">
-    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <meta charset="utf-8">
-    <title>Mount Edgcumbe Country Park</title>
-    <link rel="stylesheet" href="css/DesignSheet.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcuCiZmAW-2lmgrYxlyfYDRvDT_AezwcY&callback=initialize&libraries=&v=weekly"
-                    async defer></script>
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/myscripts.js" async></script>
+		<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+		<meta charset="utf-8">
+		<title>Mount Edgcumbe Country Park</title>
+		<link rel="stylesheet" href="css/DesignSheet.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcuCiZmAW-2lmgrYxlyfYDRvDT_AezwcY&callback=initialize&libraries=&v=weekly"
+				async defer></script>
+		<script src="js/jquery-3.5.1.js"></script>
+		<script src="js/myscripts.js" async></script>
 </head>
 
 
@@ -22,26 +23,34 @@
             <div class="header">
                 <div class="responsive"> <img src="https://i.imgur.com/OVaHHR9.png" class="responsive"></div>
             </div>	
+            <p></p>
             <div class="theGreeting" id="greeting">
             </div>
             <hr>
             <section>
 				<div class="nav-bar">
+					<center>
+					<button class ="BackButton button8px" id="back"><-</button>
+					<button class ="StartButton button8px" id="start">Start The Tour</button>
+					<button class ="nextButton button8px" id="next">-></button>
+					</center>
 					<ul>
-						<li><button id="link1" class="button" href="#italianGarden" data-toggle="tab">Italian Garden</button></li>
-						<li><button id="link2" class="button" href="#jubileeGarden" data-toggle="tab">Jubilee Garden</button></li>
-						<li><button id="link3" class="button" href="#blackBeeApiary" data-toggle="tab">Black Bee Apiary</button></li>
-						<li><button id="link4" class="button" href="#frenchGarden" data-toggle="tab">French Garden</button></li>
-						<li><button id="link5" class="button" href="#relicGarden" data-toggle="tab">Relic Garden</button></li>
-						<li><button id="link6" class="button" href="#barrowCentyre" data-toggle="tab">Barrow Centre</button></li>
-						<li><button id="link7" class="button" href="#batcam" data-toggle="tab">Batcam</button></li>
-						<li><button id="link8" class="button" href="#fireAuxiliary" data-toggle="tab">Fire Auxiliary</button></li>
-						<li><button id="link9" class="button" href="#deerGarden" data-toggle="tab">Deer Garden</button></li>
-						<li><button id="link10" class="button" href="#knotGarden" data-toggle="tab">Knot Garden</button></li>
-						<li><button id="link11" class="button" href="#cedarSeat" data-toggle="tab">Cedar Seat</button></li>
-						<li><button id="link12" class="button" href="#shellSeat" data-toggle="tab">Shell Seat</button></li>	
-						<br>
-						<li><img id="donate" class="center" src="img/donate.png"></li>	
+						<li><button id="link1" class="button">Italian Garden</button></li>
+						<li><button id="link2" class="button">Jubilee Garden</button></li>
+						<li><button id="link3" class="button">Black Bee Apiary</button></li>
+						<li><button id="link4" class="button">French Garden</button></li>
+						<li><button id="link5" class="button">Relic Garden</button></li>
+						<li><button id="link6" class="button">Barrow Centre</button></li>
+						<li><button id="link7" class="button">Batcam</button></li>
+						<li><button id="link8" class="button">Fire Auxiliary</button></li>
+						<li><button id="link9" class="button">Deer Garden</button></li>
+						<li><button id="link10" class="button">Knot Garden</button></li>
+						<li><button id="link11" class="button">Cedar Seat</button></li>
+						<li><button id="link12" class="button">Shell Seat</button></li>
+						<li><button id="link13" class="button">Lambert Lodge</button></li>
+						<li><button id="link14" class="button">Children’s Play Area</button></li>
+						<p></p>
+						<li><button id="join" target="_blank" onclick="window.open('docs/membership.pdf')" class="membership-button">Become a Friend</button></li>
 					</ul>
 				</div>
 				<div class="map-pane" id="map_canvas">
@@ -54,16 +63,14 @@
     				</ul>
 			    </div>
 			</section>
+
 			<section>
-			<div class="nav-bar">
-			</div>
-			<div class="map-pane">
-
-			<div class="location-text" id="locationText">
-			</div>
-			</div>
-
-		</div>
-	</div>	
+				<div class="mini-nav-bar">
+					<img id="donate" class="center" src="img/donate.png">					
+				</div>
+				<div class="mini-map-pane">
+			  		<div class="location-text" id="locationText"></div>
+				</div>
+			</section>	
 	</body>
 </html>
