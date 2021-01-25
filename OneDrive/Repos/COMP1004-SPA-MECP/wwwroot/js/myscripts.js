@@ -120,6 +120,9 @@ function initialize() {
     marker.setMap(map);
     map.panTo(marker.position);
     map.setTilt(45);
+    document.getElementById('pic1').src = "img/main house/pic1.jpeg";
+    document.getElementById('pic2').src = "img/main house/pic2.png";
+    document.getElementById('pic3').src = "img/main house/pic3.jpeg";
     GetGreeting();
 }
 
@@ -147,6 +150,7 @@ function GetClock() {
     var clocktext = "" + nhour + ":" + nmin + ":" + nsec + "";
     document.getElementById('clockbox').innerHTML = clocktext;
 }
+
 
 
 google.maps.event.addDomListener(window, 'load', initialize);

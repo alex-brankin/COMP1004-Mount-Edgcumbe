@@ -112,6 +112,12 @@
     width: 70%;
     height: 600px;
 }
+.tour-button{
+    float: left;
+    width:50%
+    height 20%;
+    font-size: 16px;
+}
 .photo-pane{
     float:right;
     width: 15%;
