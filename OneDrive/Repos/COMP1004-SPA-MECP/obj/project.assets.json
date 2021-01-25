@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexb\\OneDrive\\Repos\\COMP1004-SPA-MECP\\COMP1004-SPA-MECP.csproj",
+      "projectUniqueName": "C:\\Users\\alexb\\OneDrive\\University\\COMP1004\\COMP1004-SPA-MECP\\COMP1004-SPA-MECP.csproj",
       "projectName": "COMP1004-SPA-MECP",
-      "projectPath": "C:\\Users\\alexb\\OneDrive\\Repos\\COMP1004-SPA-MECP\\COMP1004-SPA-MECP.csproj",
+      "projectPath": "C:\\Users\\alexb\\OneDrive\\University\\COMP1004\\COMP1004-SPA-MECP\\COMP1004-SPA-MECP.csproj",
       "packagesPath": "C:\\Users\\alexb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexb\\OneDrive\\Repos\\COMP1004-SPA-MECP\\obj\\",
+      "outputPath": "C:\\Users\\alexb\\OneDrive\\University\\COMP1004\\COMP1004-SPA-MECP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
