@@ -18,67 +18,51 @@
 
 
 <body>
-	<center>
+
             <div class="header">
-                <div class="responsive">
-                    <img src="https://i.imgur.com/OVaHHR9.png" class="responsive">
-                    <!--Test--<div style="font-family: 'Bebas Neue';"><h1><font color="#3498db">HOT BEANS WEB
-                    </div>-->
-                </div>
+                <div class="responsive"> <img src="https://i.imgur.com/OVaHHR9.png" class="responsive"></div>
             </div>	
-	<font color="#000000">
-
-                            <div class="p1">
-                                <p>The Park</p>
-                                <div id="clockbox"></div>
-                            </div>
-
-
-
-                            <script type="text/javascript">
-                                function GetClock() {
-                                    var d = new Date();
-                                    var nhour = d.getHours(), nmin = d.getMinutes(), nsec = d.getSeconds();
-                                    if (nmin <= 9) nmin = "0" + nmin;
-                                    if (nsec <= 9) nsec = "0" + nsec;
-
-                                    var clocktext = "" + nhour + ":" + nmin + ":" + nsec + "";
-                                    document.getElementById('clockbox').innerHTML = clocktext;
-                                }
-
-                                GetClock();
-                                setInterval(GetClock, 1000);
-                            </script>
-            </center>
-            <hr>
-        <div class="container">
-		<div class="main">
-            <div class="row">
-                <div class="column">
-                    <div class="">
-                        <ul>
-                            <li><button id="link1" class="button" href="#italianGarden" data-toggle="tab">1. Italian Garden</button></li>
-                            <li><button id="link2" class="button" href="#jubileeGarden" data-toggle="tab">2. Jubilee Garden</button></li>
-                            <li><button id="link3" class="button" href="#blackBeeApiary" data-toggle="tab">3. Black Bee Apiary</button></li>
-                            <li><button id="link4" class="button" href="#frenchGarden" data-toggle="tab">4. French Garden</button></li>
-                            <li><button id="link5" class="button" href="#relicGarden" data-toggle="tab">5. Relic Garden</button></li>
-                            <li><button id="link6" class="button" href="#barrowCentyre" data-toggle="tab">6. Barrow Centre</button></li>
-                            <li><button id="link7" class="button" href="#batcam" data-toggle="tab">7. Batcam</button></li>
-                            <li><button id="link8" class="button" href="#fireAuxiliary" data-toggle="tab">8. Fire Auxiliary</button></li>
-                            <li><button id="link9" class="button" href="#deerGarden" data-toggle="tab">9. Deer Garden</button></li>
-                            <li><button id="link10" class="button" href="#knotGarden" data-toggle="tab">10. Knot Garden</button></li>
-                            <li><button id="link11" class="button" href="#cedarSeat" data-toggle="tab">11. Cedar Seat</button></li>
-                            <li><button id="link12" class="button" href="#shellSeat" data-toggle="tab">12. Shell Seat</button></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="column">
-                    <div id="map_canvas" style="height:500px; width:1000px; border: thin solid black;"></div>
-                </div>
-                <a href="#" class="back">&#8249;</a>
-                <a href="#" class="next">&#8250;</a>
+			<p> </p>
+            <div class="theGreeting" id="greeting">
             </div>
+            <hr>
+            <section>
+				<div class="nav-bar">
+					<ul>
+						<li><button id="link1" class="button" href="#italianGarden" data-toggle="tab">Italian Garden</button></li>
+						<li><button id="link2" class="button" href="#jubileeGarden" data-toggle="tab">Jubilee Garden</button></li>
+						<li><button id="link3" class="button" href="#blackBeeApiary" data-toggle="tab">Black Bee Apiary</button></li>
+						<li><button id="link4" class="button" href="#frenchGarden" data-toggle="tab">French Garden</button></li>
+						<li><button id="link5" class="button" href="#relicGarden" data-toggle="tab">Relic Garden</button></li>
+						<li><button id="link6" class="button" href="#barrowCentyre" data-toggle="tab">Barrow Centre</button></li>
+						<li><button id="link7" class="button" href="#batcam" data-toggle="tab">Batcam</button></li>
+						<li><button id="link8" class="button" href="#fireAuxiliary" data-toggle="tab">Fire Auxiliary</button></li>
+						<li><button id="link9" class="button" href="#deerGarden" data-toggle="tab">Deer Garden</button></li>
+						<li><button id="link10" class="button" href="#knotGarden" data-toggle="tab">Knot Garden</button></li>
+						<li><button id="link11" class="button" href="#cedarSeat" data-toggle="tab">Cedar Seat</button></li>
+						<li><button id="link12" class="button" href="#shellSeat" data-toggle="tab">Shell Seat</button></li>	
+						<br>
+						<li><img id="donate" class="center" src="img/donate.png"></li>	
+					</ul>
+				</div>
+				<div class="map-pane" id="map_canvas">
+				</div>		
+				<div class="photo-pane" id="location-photo">
+					<ul> 
+						<li><img id="pic1" class="pic-centre"></li>
+      					<li><img id="pic2" class="pic-centre"></li>
+      					<li><img id="pic3" class="pic-centre"></li>
+    				</ul>
+			    </div>
+			</section>
+			<section>
+			<div class="nav-bar">
+			</div>
+			<div class="map-pane">
+			<div class="location-text" id="locationText">
+			</div>
+			</div>
+
 		</div>
 	</div>	
 	</body>
