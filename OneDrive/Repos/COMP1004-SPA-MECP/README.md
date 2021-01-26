@@ -22,7 +22,7 @@ will navigate you through the park. Each button displays text about the location
 
 In hopes to raise money for the park, I've added a donation button and a membership redirect forum on "Become a Friend".
 
-##Development Phases
+## Development Phases
 
 Here's how the site should look at the moment in time:
 ![current_build](https://i.imgur.com/aRtK5iY.jpg)
