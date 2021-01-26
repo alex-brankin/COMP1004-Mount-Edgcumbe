@@ -7,7 +7,7 @@ This is a README file for my COMP1004 Mount Edgcumbe Country Park SPA.
 Throughout this file, you will be briefed on how the project works including:
 
 * How to run the site!
-* Development phases! (needs to be added)
+* Development phases!
 
 ## Site Information
 
@@ -22,10 +22,15 @@ will navigate you through the park. Each button displays text about the location
 
 In hopes to raise money for the park, I've added a donation button and a membership redirect forum on "Become a Friend".
 
+##Development Phases
+
 Here's how the site should look at the moment in time:
-![site_example](https://i.imgur.com/aRtK5iY.jpg)
+![current_build](https://i.imgur.com/aRtK5iY.jpg)
 
 First Initial Build:
 ![first_build](https://i.imgur.com/YV1cgzJ.jpg)
+
+Second Build:
+![Second_Build](https://i.imgur.com/4EJQUPu.png)
 
 
