@@ -35,7 +35,7 @@ $("#link3").click(function(){
 $("#link4").click(function(){
     document.getElementById("link" + sequence).style.backgroundColor = '#1E1E24';
     sequence=4;
-    changeMarkerPos(50.35806564722406, -4.173026782141605, "French Garden");
+    changeMarkerPos(50.35814891399984, -4.172811820530136, "French Garden");
     document.getElementById('locationText').innerHTML = "Turn left around the French conservatory into the French Garden where the Friends have sponsored the bedding and repaired both the fountain and the conservatory.";
     document.getElementById('pic1').src = "img/french gardens/pic1.jpeg";
     document.getElementById('pic2').src = "img/french gardens/pic2.jpeg";
@@ -218,6 +218,20 @@ function GetGreeting() {
     if ((nhour>=12) && (nhour<18)) greetingText="afternoon";
     if (nhour>=18) greetingText="evening";
     document.getElementById('greeting').innerHTML = "Good " + greetingText + "! Welcome to the Friends of Edgcumbe Virtual Tour. The park is " + parkStatus;
+}
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+        } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+        }
+    });
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
