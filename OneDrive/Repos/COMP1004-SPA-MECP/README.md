@@ -26,7 +26,7 @@ In hopes to raise money for the park, I've added a donation button and a members
 
 ## Development Phases
 
-Here's how the site should look at the moment in time:
+Final Build:
 ![current_build](https://i.imgur.com/yTbtzGw.png)
 ![current_build2](https://i.imgur.com/qdQGWIw.png)
 ![current_build3](https://i.imgur.com/CokCOf3.png)
