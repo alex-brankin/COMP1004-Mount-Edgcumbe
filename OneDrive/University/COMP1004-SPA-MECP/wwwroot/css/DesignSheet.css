@@ -1,0 +1,428 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    /*background-image: url(https://i.imgur.com/icXGt5j.png);*/
+    background-size: 100%;
+    font-size: 14px;
+    background-color: white;
+    font-family: Lora, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 38px;
+    line-height: 44px;
+    font-weight: 700;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #32CD32;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.header {
+    padding: 1px;
+    text-align: center;
+    background: #f1f1f1;
+    color: black;
+    box-shadow: 0 5px 15px -5px #00000070;
+    font: verdana;
+    height: 10%;
+    width: 100%;
+    position: none;
+}
+
+.responsive {
+    height: auto;
+    width: auto;
+}
+.theGreeting {
+    height: 5%;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Bebas Neue', serif;
+    font-size: 33px;
+    line-height: 10pt;
+    position: static;
+    color: black;
+}
+
+.nav-container-right {
+    width: 50%;
+    border: 0px solid #000;
+    padding-top: 0px;
+    float: right;
+    font-size: 0;
+}
+.nav-container-left {
+    width: 50%;
+    border: 0px solid #000;
+    padding-top: 0px;
+    float: left;
+    font-size: 0;
+}
+.nav-bar{
+    float: left;
+    width: 10%;
+    padding: 20px;
+}
+.mini-nav-bar{
+    float: left;
+    width: 10%;
+    padding: 20px;
+}
+.map-pane {
+    width: 100%;
+    height: 710px;
+    vertical-align: middle;
+}
+.mini-map-pane {
+    width: 30%;
+    border: 0px solid #000;
+    padding-top: 5px;
+    float: right;
+    font-size: 0;
+    position: relative;
+}
+.mini-map-pane-left {
+    width: 70%;
+    border: 0px solid #000;
+    padding-top: 5px;
+    float: left;
+    font-size: 0;
+    position: relative;
+}
+.photo-pane{
+    width: 33.33%;
+    float: right;
+    padding: 0px;
+    height: 600px;
+}
+.mini-photo-pane{
+    float:left;
+    width: 10%;
+    padding: 0px;
+    height: 50px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.pic-centre {
+ width: 100%;
+ height: 243px;
+}
+photo-pane ul {
+  list-style-type: none;
+  padding: 0;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+.location-text{
+  padding: 10px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+
+.p1 {
+    font-family: 'Bebas Neue', serif;
+    font-size: 40px;
+    line-height: 10pt;
+    position: static;
+}
+.membership-button{
+    width: 20%;
+    height: 40px;
+}
+.button {
+    background-color: #1E1E24;
+    width: 100%;
+    height: 40px;
+    color: white;
+    outline: none;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.membership-button {
+    background-color: gray;
+    width: 15%;
+    height: 40px;
+    color: white;
+    outline: none;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.80;
+}
+
+
+
+.button:hover {
+    background-color: #32CD32;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nextButton {
+    background-color: #1E1E24; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.StartButton {
+    background-color: #1E1E24; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.BackButton {
+    background-color: #1E1E24; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button8px {
+    border-radius: 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    background-color: #1E1E24;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+
+    .logo a {
+        text-decoration: none;
+        font-size: 30px;
+        font-family: poppins;
+        color: #fff;
+        letter-spacing: 5px;
+    }
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+
+    nav a {
+        text-decoration: none;
+        font-family: poppins;
+        letter-spacing: 4px;
+        font-size: 20px;
+        margin: 0 10px;
+        color: #fff;
+    }
+    .nav a:hover{
+        color: #32CD32;
+    }
+
+.banner-area {
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    background-image: url(https://i.imgur.com/ZKvpIK9.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+    .banner-area h2 {
+        padding-top: 8%;
+        font-size: 70px;
+        font-family: poppins;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+.content-area {
+    width: 100%;
+    position: relative;
+    top: 450px;
+    background: #ebebeb;
+    height: 1300px;
+}
+
+    .content-area h2 {
+        font-family: poppins;
+        letter-spacing: 4px;
+        padding-top: 30px;
+        font-size: 40px;
+        margin: 0;
+    }
+
+    .content-area p {
+        padding: 2% 0px;
+        font-family: poppins;
+        line-height: 30px;
+    }
+
+.collapsible {
+    background-color: #1E1E24;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+    .active, .collapsible:hover {
+        background-color: #555;
+    }
+
+    .collapsible:after {
+        content: '\002B';
+        color: white;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+
+.active:after {
+    content: "\2212";
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1E1E24;
+    color: white;
+    line-height: 2px;
+}
+
+.p2{
+    line-height: 2px;
+    font-size: 14px;
+}
+
+.map-pan-button {
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    background-color: dimgray;
+    opacity: 0.8;
+    border: solid white 1px;
+    border-radius: 0;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 900;
+    letter-spacing: 2px;
+    min-width: 18em;
+    padding: 0 0.75em;
+    line-height: 3.75em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.map-pan-button:hover{
+    color: black;
+}
+
+ul#map-pan {
+    list-style-type: none;
+}
+
+.become-a-friend {
+    float: right;
+    line-height: 100px;
+}
+
+    .become-a-friend a {
+        text-decoration: none;
+        font-family: poppins;
+        letter-spacing: 4px;
+        font-size: 20px;
+        margin: 0 10px;
+        color: #fff;
+    }
+
+.become-a-friend a:hover {
+    color: #32CD32;
+}
